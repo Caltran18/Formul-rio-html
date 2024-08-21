@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Input</title>
+    <style>
+        body{
+            background-color: rgb(239, 182, 182);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            }  
+        form{
+            width: 600px;
+            border: 2px solid;
+            border-radius: 5px;
+            padding: 20px;
+        } 
+        label{
+            margin-bottom: 5px;
+            display: block;
+        }
+        input{
+            width: 150px;
+            padding: 3px;
+            margin-bottom: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit" ]{
+            background-color: black;
+            color: aliceblue;
+            padding: 4px 4px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <center><h1>Bibli Mund</h1></center>
+        <img src="livro.jpg" alt="image biblioteca" width="200px" height="300">
+        <img src="livro2.jpg" alt="image biblioteca" width="200px" height="300">
+        <img src="image3.jpg" alt="image biblioteca" width="200px" height="300">
+        <img src="content.jpg" alt="image biblioteca" width="200px" height="300">
+        <form action="">
+            <br>
+            <label for="0">Data Do Emprestimo</label>
+            <input type="date"  value="0">
+            <input type="week">
+            <input type="time">
+
+            <label for="0">Data Da Devolução</label>
+            <input type="date" value="0">
+            <input type="week">
+            <input type="time">
+            <br>
+            <center>
+                <br>
+                <label for="1">Conta:</label>
+                <input type="text" required>
+                <br>
+                <br>
+                <label for="1">Senha:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="1">Numero da Matricula:</label>
+                <input type="text" id="1">
+                <br>
+                <br>
+                <label for="2">Seu CPF</label>
+                <input type="text"  id="2">
+                <br>
+                <br>
+                <label for="3">ISBN do Livro</label>
+                <input type="text"  id="3">
+                <br>
+                <br>
+                <label for="3">Titulo do Livro</label>
+                <input type="text"  id="3">
+                <br>
+                <br>
+                <label for="3">Autor do Livro</label>
+                <input type="text"  id="3">
+                <br>
+                <br>
+                <label for="4">Quantidade de livro que o usuario pegou para emprestimo:</label>
+                <label for="4">1</label>
+                <input type="radio" value="1" name="4">
+                <label for="4">2</label>
+                <input type="radio" value="2" name="4">
+                <label for="4">3</label>
+                <input type="radio" value="3" name="4">
+                <label for="4">4</label>
+                <input type="radio" value="4" name="4">
+                <br>
+                <br>
+                <input type="button" value="Enter">
+                <input type="submit"  value="Enviar">
+                <input type="reset" value="Limpar">
+                <br>
+                <br>
+                <a href="erro.png">Cadastro</a>
+            </center>
+        </form>
+</center>
+</body>
+</html>
